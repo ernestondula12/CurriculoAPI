@@ -3,6 +3,9 @@ const mongoose = require('mongoose');
 
 //Criando a conexão com o banco de dados
 
+const uri = 'mongodb+srv://conection:millerinho@connection.mwooqzb.mongodb.net/experiencias?retryWrites=true&w=majority&appName=Connection';
+
+
 const connectDB = async () => {
 
     try{
